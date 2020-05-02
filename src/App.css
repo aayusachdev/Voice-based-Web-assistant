@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 2000% 2000%;
+  animation: gradient 9s ease infinite;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  20% {
+    background-position: 20% 50%;
+  }
+  40% {
+    background-position: 40% 50%;
+  }
+  60% {
+    background-position: 60% 50%;
+  }
+  80% {
+    background-position: 80% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.app-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #f2f2f2;
+  text-align: center;
+  margin: 5% auto;
+
+  font-size: 5rem;
+}
+
+.app-options {
+  margin: 0 30% 0 30%;
+}
+li {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  margin: 7%;
+  text-decoration: none;
+  background: lightblue;
+  padding: 16px 66px;
+  text-align: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: lightgreen;
+}
+
+.webcam-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #f2f2f2;
+  text-align: center;
+  margin: 2% auto 0 auto;
+  font-size: 2rem;
+}
